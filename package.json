@@ -1,0 +1,46 @@
+{
+  "name": "fiori-pack",
+  "displayName": "Fiori Pack",
+  "description": "Popupar extensions for Fiori development that provide IntelliSense, Git, ESLint, Error Lens and many other tool",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "saposs.app-studio-remote-access", 
+    "saposs.app-studio-toolkit", 
+
+    "saposs.sap-guided-answers-extension", 
+    "saposs.vscode-ui5-language-assistant", 
+    "saposs.xml-toolkit", 
+    "sapse.sap-ux-annotation-modeler-extension", 
+    "sapse.sap-ux-application-modeler-extension", 
+    "sapse.sap-ux-fiori-tools-extension-pack", 
+    "sapse.sap-ux-help-extension", 
+    "sapse.sap-ux-service-modeler-extension", 
+    "sapse.vscode-wing-cds-editor-vsc", 
+
+    "dbaeumer.vscode-eslint", 
+    "christian-kohler.npm-intellisense", 
+    "christian-kohler.path-intellisense", 
+
+    "sapse.vscode-cds", 
+    "larshp.vscode-abap", 
+    "larshp.vscode-abaplint", 
+    "dotjoshjohnson.xml", 
+    "formulahendry.auto-complete-tag", 
+    "tomoki1207.pdf", 
+    "leo-ls.fiori-xml-lint", 
+    "ms-vscode-remote.remote-ssh", 
+    "ms-vscode-remote.remote-ssh-edit", 
+    "ms-vscode.live-server", 
+    "ms-vscode.remote-explorer", 
+    "davidanson.vscode-markdownlint", 
+    "seatonjiang.gitmoji-vscode", 
+    "usernamehw.errorlens",
+    "aaron-bond.better-comments"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "es6": true
+    },
+    "plugins": [
+        "@sap/ui5-jsdocs"
+    ],
+    "extends": [
+        "plugin:@sap/ui5-jsdocs/recommended",
+        "eslint:recommended"
+    ]
+}

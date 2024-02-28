@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "none",
+        "noEmit": true,
+        "checkJs": true,
+        "allowJs": true,
+        "target": "es6",
+        "types": [
+            "@sapui5/ts-types"
+        ]
+    }
+}
