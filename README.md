@@ -1,6 +1,6 @@
 # Extension Pack for Fiori
 
-Extension Pack for Fiori is a collection of popular extensions that can help write, test and debug Fiori applications in Visual Studio Code.
+Extension Pack for Fiori is a collection of popular extensions that can help write, test and debug Fiori applications in Visual Studio Code or Business Application Studio.
 
 ## Extension included
 
