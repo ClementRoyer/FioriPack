@@ -1,8 +1,13 @@
 {
+  "version": "1.0.0",
   "name": "fiori-pack",
   "displayName": "Fiori Pack",
   "description": "Popupar extensions for Fiori development that provide IntelliSense, Git, ESLint, Error Lens and many other tool",
-  "version": "0.0.1",
+  "publisher": "clement-royer",
+  "icon": "images/package_icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClementRoyer/FioriPack"},
   "engines": {
     "vscode": "^1.87.0"
   },

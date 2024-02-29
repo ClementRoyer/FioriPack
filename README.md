@@ -11,7 +11,7 @@ Extension Pack for Fiori is a collection of popular extensions that can help wri
 * [SAP Fiori Tools - Extension Pack](https://marketplace.visualstudio.com/items?itemName=sapse.sap-ux-fiori-tools-extension-pack)
 * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) (Required by BAS)
 * [Npm IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  (Need file [.eslintrc](/utils/.eslintrc) and [tsconfig.json](/utils/tsconfig.json))
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (Need file .eslintrc and tsconfig.json (exemples in /files))
 
 ### Very Useful
 
