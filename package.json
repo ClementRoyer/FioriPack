@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "fiori-pack",
   "displayName": "Fiori Pack / Business Application Studio Pack",
   "description": "Popular extensions for Fiori / SAPUI5 development and Business Application Studio (SAP BAS) that provide IntelliSense, Git, ESLint, Error Lens and many other useful tools",
@@ -7,7 +7,8 @@
   "icon": "images/package_icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ClementRoyer/FioriPack"},
+    "url": "https://github.com/ClementRoyer/FioriPack"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -17,7 +18,7 @@
   "extensionPack": [ 
     "saposs.app-studio-remote-access", 
     "saposs.app-studio-toolkit", 
-
+    
     "saposs.sap-guided-answers-extension", 
     "saposs.vscode-ui5-language-assistant", 
     "saposs.xml-toolkit", 
@@ -27,7 +28,8 @@
     "sapse.sap-ux-help-extension", 
     "sapse.sap-ux-service-modeler-extension", 
     "sapse.vscode-wing-cds-editor-vsc", 
-
+    
+    "iljapostnovs.ui5plugin",
     "dbaeumer.vscode-eslint", 
     "christian-kohler.npm-intellisense", 
     "christian-kohler.path-intellisense", 

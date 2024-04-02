@@ -15,6 +15,7 @@ Extension Pack for Fiori is a collection of popular extensions that can help wri
 
 ### Very Useful
 
+* [UI5 Plugin](https://marketplace.visualstudio.com/items?itemName=iljapostnovs.ui5plugin)
 * [CDS Visual Editor](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-wing-cds-editor-vsc)
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments&ssr=false#overview)
 * [Path IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
