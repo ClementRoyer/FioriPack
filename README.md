@@ -23,6 +23,7 @@ Extension Pack for Fiori is a collection of popular extensions that can help wri
 
 ### Nice to have
 
+* [VSCode UI5: API Reference](https://marketplace.visualstudio.com/items?itemName=jacek-wozniczak.vscode-ui5-api-reference)
 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 * [Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
 * [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
