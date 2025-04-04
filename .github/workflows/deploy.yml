@@ -1,0 +1,49 @@
+name: Deploy Extension
+
+on:
+  push:
+    tags:
+      - 'v*' # Will trigger on any tag that starts with 'v', like v1.0.0
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Lint and Test
+        run: |
+          npm run lint
+          npm test
+          
+      - name: Package Extension
+        run: npm run package
+        
+      # Deploy to VS Code Marketplace
+      - name: Publish to VS Code Marketplace
+        if: success()
+        run: npx vsce publish -p ${{ secrets.VSCODE_MARKETPLACE_TOKEN }}
+        
+      # Deploy to Open VSX Registry (for alternatives like VSCodium)
+      - name: Publish to Open VSX Registry
+        if: success()
+        run: npx ovsx publish -p ${{ secrets.OPEN_VSX_TOKEN }}
+        
+      # Create GitHub Release
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: "*.vsix"
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
