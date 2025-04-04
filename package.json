@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "name": "fiori-pack",
   "displayName": "Fiori Pack / Business Application Studio Pack",
   "description": "Popular extensions for Fiori / SAPUI5 development and Business Application Studio (SAP BAS) that provide IntelliSense, Git, ESLint, Error Lens and many other useful tools",
