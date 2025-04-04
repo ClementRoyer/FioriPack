@@ -2,6 +2,8 @@
 
 Extension Pack for Fiori is a collection of popular extensions that can help write, test and debug Fiori applications in Visual Studio Code or Business Application Studio.
 
+[![Deploy Extension](https://github.com/ClementRoyer/FioriPack/actions/workflows/deploy.yml/badge.svg)](https://github.com/ClementRoyer/FioriPack/actions/workflows/deploy.yml)
+
 ## Extension included
 
 ### Absolute Essentials
